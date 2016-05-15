@@ -61,3 +61,7 @@
 ;; Other
 ;; Disable startup window
 (setq inhibit-startup-screen t)
+
+;; LaTeX Support
+(setenv "PATH" (concat "/Library/TeX/texbin" (getenv "PATH")))
+(setq exec-path (append '("/Library/TeX/texbin") exec-path))
