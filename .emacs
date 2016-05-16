@@ -2,8 +2,13 @@
 ;; Package installation for flycheck
 (require 'package)
 (add-to-list 'package-archives
-	     '("melpa" . "https://melpa.org/packages/") t)
+	     '("melpa" . "https://melpa.org/packages/"))
+
+(add-to-list 'package-archives
+	     '("marmalade" . "https://marmalade-repo.org/packages/"))
+
 (package-initialize)
+(package-refresh-contents)
 
 ;; Load path
 (add-to-list 'load-path "/Users/rob/.emacs.d/packages")
