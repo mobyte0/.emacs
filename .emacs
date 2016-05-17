@@ -63,6 +63,9 @@
 (dolist (hook '(text-mode-hook))
   (add-hook hook (lambda () (flyspell-mode 1))))
 
+;; flyspell for markdown files
+(add-hook 'markdown-mode-hook 'flyspell-mode)
+
 ;; Other
 ;; Disable startup window
 (setq inhibit-startup-screen t)
