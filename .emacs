@@ -55,6 +55,9 @@
 ;; Line number
 (global-linum-mode t)
 
+;; Highlight current selected line
+(global-hl-line-mode 1)
+
 ;; Flycheck Configuration
 ;; Enable flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
