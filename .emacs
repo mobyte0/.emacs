@@ -25,6 +25,9 @@
 
 ;; UI Customization
 
+;; Powerline
+(powerline-default-theme)
+
 ;; Display column number
 (setq column-number-mode t)
 
