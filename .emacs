@@ -142,6 +142,9 @@
 ;; Word wrapping
 (global-visual-line-mode t)
 
+;; which-key setup
+(which-key-mode)
+
 ;; Flycheck Configuration
 ;; Enable flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
