@@ -163,3 +163,7 @@
 ;; LaTeX Support
 (setenv "PATH" (concat "/Library/TeX/texbin" (getenv "PATH")))
 (setq exec-path (append '("/Library/TeX/texbin") exec-path))
+
+;; Extra stuff
+;; Enable undo tree
+(global-undo-tree-mode)
