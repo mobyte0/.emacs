@@ -1,4 +1,4 @@
-.emacs
+# .emacs
 
 this is my .emacs file
 
