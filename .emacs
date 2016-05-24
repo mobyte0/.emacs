@@ -31,6 +31,9 @@
 ;; Paren mode
 (show-paren-mode 1)
 
+;; right brackets when left is typed
+(electric-pair-mode 1)
+
 ;; Time and date in modeline
 (setq display-time-day-and-date t)
 (setq display-time-12hr-format t)
