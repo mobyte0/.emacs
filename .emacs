@@ -170,3 +170,5 @@
 ;; Extra stuff
 ;; Enable undo tree
 (global-undo-tree-mode)
+
+;; TODO: Setup Emacs Daemon config
